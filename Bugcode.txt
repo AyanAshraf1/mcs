@@ -1,0 +1,5 @@
+taskkill /f /im explorer.exe
+cd /d %userprofile%\AppData\Local\Microsoft\Windows\Explorer
+del iconcache*.*
+start explorer.exe
+// 2 and 3 are one
